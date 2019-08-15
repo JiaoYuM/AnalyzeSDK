@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61BF642218C3386007AE8B7 /* VHDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A61BF641218C3386007AE8B7 /* VHDelegateProxy.m */; };
+		A61BF648218C360A007AE8B7 /* DRVHAnalyticsSDK+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = A61BF647218C360A007AE8B7 /* DRVHAnalyticsSDK+Private.m */; };
+		A61BF64B218C3796007AE8B7 /* NSObject+VHAnalyticsDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A61BF64A218C3796007AE8B7 /* NSObject+VHAnalyticsDelegateProxy.m */; };
+		A63C3DFB218998EF006EE017 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63C3DFA218998EF006EE017 /* NextViewController.m */; };
+		A65819752180115E0090F667 /* JSONSerializeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A65819742180115E0090F667 /* JSONSerializeModel.m */; };
+		A66314D52181A1BD00FA3FB2 /* VHReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A66314D42181A1BD00FA3FB2 /* VHReachability.m */; };
+		A66EED6B217EB854007A5AB7 /* VHLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = A66EED6A217EB854007A5AB7 /* VHLogger.m */; };
+		A66EED71217EFB73007A5AB7 /* NSObject+VHSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A66EED70217EFB73007A5AB7 /* NSObject+VHSwizzle.m */; };
+		A66EED75217F1DCD007A5AB7 /* VHSDKRemoteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A66EED74217F1DCD007A5AB7 /* VHSDKRemoteConfig.m */; };
+		A687B3042182FDC000463519 /* UIViewController+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A687B3032182FDC000463519 /* UIViewController+AutoTrack.m */; };
+		A6900956216F419900E43C6D /* DRVHAnalyticsDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6900955216F419900E43C6D /* DRVHAnalyticsDataManager.m */; };
+		A6900959216F43C400E43C6D /* DRVHServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = A6900958216F43C400E43C6D /* DRVHServerConnection.m */; };
+		A690095C216F45BB00E43C6D /* DRVHHandleSqliteData.m in Sources */ = {isa = PBXBuildFile; fileRef = A690095B216F45BB00E43C6D /* DRVHHandleSqliteData.m */; };
+		A6C25586216B413900898F00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25585216B413900898F00 /* AppDelegate.m */; };
+		A6C25589216B413900898F00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25588216B413900898F00 /* ViewController.m */; };
+		A6C2558C216B413900898F00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C2558A216B413900898F00 /* Main.storyboard */; };
+		A6C2558E216B413B00898F00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C2558D216B413B00898F00 /* Assets.xcassets */; };
+		A6C25591216B413B00898F00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C2558F216B413B00898F00 /* LaunchScreen.storyboard */; };
+		A6C25594216B413B00898F00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C25593216B413B00898F00 /* main.m */; };
+		A6C2559C216B420F00898F00 /* DRVHAnalyticsSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C2559B216B420F00898F00 /* DRVHAnalyticsSDK.m */; };
+		A6D4AD9A2186B94B000AB608 /* AutoTrackExtendsion.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4AD992186B94B000AB608 /* AutoTrackExtendsion.m */; };
+		A6D4AD9D2186BBAF000AB608 /* UIApplication+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4AD9C2186BBAF000AB608 /* UIApplication+AutoTrack.m */; };
+		A6D4ADA02186E557000AB608 /* VHGzipUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4AD9F2186E557000AB608 /* VHGzipUtility.m */; };
+		A6D4ADA32186EA4C000AB608 /* NSString+HashCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4ADA22186EA4C000AB608 /* NSString+HashCode.m */; };
+		A6D4ADA62187039A000AB608 /* UIView+AutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4ADA52187039A000AB608 /* UIView+AutoTrack.m */; };
+		A6D4ADA9218703BB000AB608 /* UIView+VHHelps.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D4ADA8218703BB000AB608 /* UIView+VHHelps.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A61BF640218C3386007AE8B7 /* VHDelegateProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VHDelegateProxy.h; sourceTree = "<group>"; };
+		A61BF641218C3386007AE8B7 /* VHDelegateProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHDelegateProxy.m; sourceTree = "<group>"; };
+		A61BF646218C360A007AE8B7 /* DRVHAnalyticsSDK+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DRVHAnalyticsSDK+Private.h"; sourceTree = "<group>"; };
+		A61BF647218C360A007AE8B7 /* DRVHAnalyticsSDK+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DRVHAnalyticsSDK+Private.m"; sourceTree = "<group>"; };
+		A61BF649218C3796007AE8B7 /* NSObject+VHAnalyticsDelegateProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+VHAnalyticsDelegateProxy.h"; sourceTree = "<group>"; };
+		A61BF64A218C3796007AE8B7 /* NSObject+VHAnalyticsDelegateProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VHAnalyticsDelegateProxy.m"; sourceTree = "<group>"; };
+		A63C3DF9218998EF006EE017 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		A63C3DFA218998EF006EE017 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		A65819732180115E0090F667 /* JSONSerializeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONSerializeModel.h; sourceTree = "<group>"; };
+		A65819742180115E0090F667 /* JSONSerializeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONSerializeModel.m; sourceTree = "<group>"; };
+		A66314D32181A1BD00FA3FB2 /* VHReachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VHReachability.h; sourceTree = "<group>"; };
+		A66314D42181A1BD00FA3FB2 /* VHReachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHReachability.m; sourceTree = "<group>"; };
+		A66EED69217EB854007A5AB7 /* VHLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VHLogger.h; sourceTree = "<group>"; };
+		A66EED6A217EB854007A5AB7 /* VHLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHLogger.m; sourceTree = "<group>"; };
+		A66EED6F217EFB73007A5AB7 /* NSObject+VHSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+VHSwizzle.h"; sourceTree = "<group>"; };
+		A66EED70217EFB73007A5AB7 /* NSObject+VHSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+VHSwizzle.m"; sourceTree = "<group>"; };
+		A66EED73217F1DCD007A5AB7 /* VHSDKRemoteConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VHSDKRemoteConfig.h; sourceTree = "<group>"; };
+		A66EED74217F1DCD007A5AB7 /* VHSDKRemoteConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHSDKRemoteConfig.m; sourceTree = "<group>"; };
+		A687B3022182FDC000463519 /* UIViewController+AutoTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AutoTrack.h"; sourceTree = "<group>"; };
+		A687B3032182FDC000463519 /* UIViewController+AutoTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AutoTrack.m"; sourceTree = "<group>"; };
+		A6900954216F419900E43C6D /* DRVHAnalyticsDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRVHAnalyticsDataManager.h; sourceTree = "<group>"; };
+		A6900955216F419900E43C6D /* DRVHAnalyticsDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRVHAnalyticsDataManager.m; sourceTree = "<group>"; };
+		A6900957216F43C400E43C6D /* DRVHServerConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRVHServerConnection.h; sourceTree = "<group>"; };
+		A6900958216F43C400E43C6D /* DRVHServerConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRVHServerConnection.m; sourceTree = "<group>"; };
+		A690095A216F45BB00E43C6D /* DRVHHandleSqliteData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRVHHandleSqliteData.h; sourceTree = "<group>"; };
+		A690095B216F45BB00E43C6D /* DRVHHandleSqliteData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRVHHandleSqliteData.m; sourceTree = "<group>"; };
+		A6C25581216B413900898F00 /* DRVHAnalyticsSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DRVHAnalyticsSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C25584216B413900898F00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6C25585216B413900898F00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6C25587216B413900898F00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6C25588216B413900898F00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6C2558B216B413900898F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6C2558D216B413B00898F00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6C25590216B413B00898F00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6C25592216B413B00898F00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6C25593216B413B00898F00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C2559A216B420F00898F00 /* DRVHAnalyticsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRVHAnalyticsSDK.h; sourceTree = "<group>"; };
+		A6C2559B216B420F00898F00 /* DRVHAnalyticsSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRVHAnalyticsSDK.m; sourceTree = "<group>"; };
+		A6D4AD982186B94B000AB608 /* AutoTrackExtendsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoTrackExtendsion.h; sourceTree = "<group>"; };
+		A6D4AD992186B94B000AB608 /* AutoTrackExtendsion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoTrackExtendsion.m; sourceTree = "<group>"; };
+		A6D4AD9B2186BBAF000AB608 /* UIApplication+AutoTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AutoTrack.h"; sourceTree = "<group>"; };
+		A6D4AD9C2186BBAF000AB608 /* UIApplication+AutoTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AutoTrack.m"; sourceTree = "<group>"; };
+		A6D4AD9E2186E557000AB608 /* VHGzipUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VHGzipUtility.h; sourceTree = "<group>"; };
+		A6D4AD9F2186E557000AB608 /* VHGzipUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VHGzipUtility.m; sourceTree = "<group>"; };
+		A6D4ADA12186EA4C000AB608 /* NSString+HashCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HashCode.h"; sourceTree = "<group>"; };
+		A6D4ADA22186EA4C000AB608 /* NSString+HashCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HashCode.m"; sourceTree = "<group>"; };
+		A6D4ADA42187039A000AB608 /* UIView+AutoTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoTrack.h"; sourceTree = "<group>"; };
+		A6D4ADA52187039A000AB608 /* UIView+AutoTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoTrack.m"; sourceTree = "<group>"; };
+		A6D4ADA7218703BB000AB608 /* UIView+VHHelps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+VHHelps.h"; sourceTree = "<group>"; };
+		A6D4ADA8218703BB000AB608 /* UIView+VHHelps.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+VHHelps.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C2557E216B413900898F00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6C25578216B413900898F00 = {
+			isa = PBXGroup;
+			children = (
+				A6C25583216B413900898F00 /* DRVHAnalyticsSDK */,
+				A6C25582216B413900898F00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C25582216B413900898F00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C25581216B413900898F00 /* DRVHAnalyticsSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C25583216B413900898F00 /* DRVHAnalyticsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2559D216B421B00898F00 /* VHAnalyticsSDK */,
+				A6C25584216B413900898F00 /* AppDelegate.h */,
+				A6C25585216B413900898F00 /* AppDelegate.m */,
+				A6C25587216B413900898F00 /* ViewController.h */,
+				A6C25588216B413900898F00 /* ViewController.m */,
+				A63C3DF9218998EF006EE017 /* NextViewController.h */,
+				A63C3DFA218998EF006EE017 /* NextViewController.m */,
+				A6C2558A216B413900898F00 /* Main.storyboard */,
+				A6C2558D216B413B00898F00 /* Assets.xcassets */,
+				A6C2558F216B413B00898F00 /* LaunchScreen.storyboard */,
+				A6C25592216B413B00898F00 /* Info.plist */,
+				A6C25593216B413B00898F00 /* main.m */,
+			);
+			path = DRVHAnalyticsSDK;
+			sourceTree = "<group>";
+		};
+		A6C2559D216B421B00898F00 /* VHAnalyticsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A6C2559A216B420F00898F00 /* DRVHAnalyticsSDK.h */,
+				A6C2559B216B420F00898F00 /* DRVHAnalyticsSDK.m */,
+				A6900954216F419900E43C6D /* DRVHAnalyticsDataManager.h */,
+				A6900955216F419900E43C6D /* DRVHAnalyticsDataManager.m */,
+				A6900957216F43C400E43C6D /* DRVHServerConnection.h */,
+				A6900958216F43C400E43C6D /* DRVHServerConnection.m */,
+				A690095A216F45BB00E43C6D /* DRVHHandleSqliteData.h */,
+				A690095B216F45BB00E43C6D /* DRVHHandleSqliteData.m */,
+				A65819732180115E0090F667 /* JSONSerializeModel.h */,
+				A65819742180115E0090F667 /* JSONSerializeModel.m */,
+				A66EED69217EB854007A5AB7 /* VHLogger.h */,
+				A66EED6A217EB854007A5AB7 /* VHLogger.m */,
+				A66EED6F217EFB73007A5AB7 /* NSObject+VHSwizzle.h */,
+				A66EED70217EFB73007A5AB7 /* NSObject+VHSwizzle.m */,
+				A687B3022182FDC000463519 /* UIViewController+AutoTrack.h */,
+				A687B3032182FDC000463519 /* UIViewController+AutoTrack.m */,
+				A6D4AD9B2186BBAF000AB608 /* UIApplication+AutoTrack.h */,
+				A6D4AD9C2186BBAF000AB608 /* UIApplication+AutoTrack.m */,
+				A6D4ADA12186EA4C000AB608 /* NSString+HashCode.h */,
+				A6D4ADA22186EA4C000AB608 /* NSString+HashCode.m */,
+				A66EED73217F1DCD007A5AB7 /* VHSDKRemoteConfig.h */,
+				A66EED74217F1DCD007A5AB7 /* VHSDKRemoteConfig.m */,
+				A66314D32181A1BD00FA3FB2 /* VHReachability.h */,
+				A66314D42181A1BD00FA3FB2 /* VHReachability.m */,
+				A6D4AD982186B94B000AB608 /* AutoTrackExtendsion.h */,
+				A6D4AD992186B94B000AB608 /* AutoTrackExtendsion.m */,
+				A6D4ADA42187039A000AB608 /* UIView+AutoTrack.h */,
+				A6D4ADA52187039A000AB608 /* UIView+AutoTrack.m */,
+				A6D4ADA7218703BB000AB608 /* UIView+VHHelps.h */,
+				A6D4ADA8218703BB000AB608 /* UIView+VHHelps.m */,
+				A6D4AD9E2186E557000AB608 /* VHGzipUtility.h */,
+				A6D4AD9F2186E557000AB608 /* VHGzipUtility.m */,
+				A61BF640218C3386007AE8B7 /* VHDelegateProxy.h */,
+				A61BF641218C3386007AE8B7 /* VHDelegateProxy.m */,
+				A61BF646218C360A007AE8B7 /* DRVHAnalyticsSDK+Private.h */,
+				A61BF647218C360A007AE8B7 /* DRVHAnalyticsSDK+Private.m */,
+				A61BF649218C3796007AE8B7 /* NSObject+VHAnalyticsDelegateProxy.h */,
+				A61BF64A218C3796007AE8B7 /* NSObject+VHAnalyticsDelegateProxy.m */,
+			);
+			path = VHAnalyticsSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C25580216B413900898F00 /* DRVHAnalyticsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C25597216B413B00898F00 /* Build configuration list for PBXNativeTarget "DRVHAnalyticsSDK" */;
+			buildPhases = (
+				A6C2557D216B413900898F00 /* Sources */,
+				A6C2557E216B413900898F00 /* Frameworks */,
+				A6C2557F216B413900898F00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DRVHAnalyticsSDK;
+			productName = DRVHAnalyticsSDK;
+			productReference = A6C25581216B413900898F00 /* DRVHAnalyticsSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C25579216B413900898F00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = viewhigh;
+				TargetAttributes = {
+					A6C25580216B413900898F00 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = A6C2557C216B413900898F00 /* Build configuration list for PBXProject "DRVHAnalyticsSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6C25578216B413900898F00;
+			productRefGroup = A6C25582216B413900898F00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C25580216B413900898F00 /* DRVHAnalyticsSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C2557F216B413900898F00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C25591216B413B00898F00 /* LaunchScreen.storyboard in Resources */,
+				A6C2558E216B413B00898F00 /* Assets.xcassets in Resources */,
+				A6C2558C216B413900898F00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C2557D216B413900898F00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6900959216F43C400E43C6D /* DRVHServerConnection.m in Sources */,
+				A6D4ADA62187039A000AB608 /* UIView+AutoTrack.m in Sources */,
+				A6C25589216B413900898F00 /* ViewController.m in Sources */,
+				A6C25594216B413B00898F00 /* main.m in Sources */,
+				A66EED6B217EB854007A5AB7 /* VHLogger.m in Sources */,
+				A61BF642218C3386007AE8B7 /* VHDelegateProxy.m in Sources */,
+				A63C3DFB218998EF006EE017 /* NextViewController.m in Sources */,
+				A66EED71217EFB73007A5AB7 /* NSObject+VHSwizzle.m in Sources */,
+				A6D4AD9D2186BBAF000AB608 /* UIApplication+AutoTrack.m in Sources */,
+				A6D4ADA02186E557000AB608 /* VHGzipUtility.m in Sources */,
+				A6C25586216B413900898F00 /* AppDelegate.m in Sources */,
+				A6D4ADA32186EA4C000AB608 /* NSString+HashCode.m in Sources */,
+				A66EED75217F1DCD007A5AB7 /* VHSDKRemoteConfig.m in Sources */,
+				A61BF64B218C3796007AE8B7 /* NSObject+VHAnalyticsDelegateProxy.m in Sources */,
+				A65819752180115E0090F667 /* JSONSerializeModel.m in Sources */,
+				A6900956216F419900E43C6D /* DRVHAnalyticsDataManager.m in Sources */,
+				A6D4AD9A2186B94B000AB608 /* AutoTrackExtendsion.m in Sources */,
+				A687B3042182FDC000463519 /* UIViewController+AutoTrack.m in Sources */,
+				A61BF648218C360A007AE8B7 /* DRVHAnalyticsSDK+Private.m in Sources */,
+				A690095C216F45BB00E43C6D /* DRVHHandleSqliteData.m in Sources */,
+				A6D4ADA9218703BB000AB608 /* UIView+VHHelps.m in Sources */,
+				A66314D52181A1BD00FA3FB2 /* VHReachability.m in Sources */,
+				A6C2559C216B420F00898F00 /* DRVHAnalyticsSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C2558A216B413900898F00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C2558B216B413900898F00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6C2558F216B413B00898F00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C25590216B413B00898F00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C25595216B413B00898F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6C25596216B413B00898F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C25598216B413B00898F00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AB8R9MWWNQ;
+				INFOPLIST_FILE = DRVHAnalyticsSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viewhigh.DRVHAnalyticsSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6C25599216B413B00898F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AB8R9MWWNQ;
+				INFOPLIST_FILE = DRVHAnalyticsSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.viewhigh.DRVHAnalyticsSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C2557C216B413900898F00 /* Build configuration list for PBXProject "DRVHAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C25595216B413B00898F00 /* Debug */,
+				A6C25596216B413B00898F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C25597216B413B00898F00 /* Build configuration list for PBXNativeTarget "DRVHAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C25598216B413B00898F00 /* Debug */,
+				A6C25599216B413B00898F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C25579216B413900898F00 /* Project object */;
+}
